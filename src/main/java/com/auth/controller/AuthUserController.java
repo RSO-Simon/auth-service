@@ -22,7 +22,7 @@ import java.util.Map;
         description = "Authentication endpoints using Google Sign-In and internal JWT issuance"
 )
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping
 public class AuthUserController {
 
     private final AuthUserService authUserService;
